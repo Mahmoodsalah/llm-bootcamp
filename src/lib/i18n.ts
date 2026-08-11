@@ -1,0 +1,40 @@
+export const dict = {
+  en: {
+    academy: "BootcampAI LLM Guide",
+    tagline: "The inner workings of Large Language Models, made interactive and visual.",
+    start: "Start Journey",
+    module: "Module",
+    modules: "Modules",
+    quiz: "Knowledge Check",
+    show_math: "Show me the math",
+    hide_math: "Hide the math",
+    next_lesson: "Next Lesson",
+    finish_module: "Complete Module",
+    score: "Score",
+    retake: "Retake Quiz",
+    correct: "Correct!",
+    incorrect: "Not quite.",
+    submit: "Submit",
+    back_home: "Back to Map",
+    completed: "Completed"
+  },
+  ar: {
+    academy: "دليل BootcampAI لـ LLM",
+    tagline: "طريقة عمل نماذج اللغة الكبيرة، مشروحة بشكل تفاعلي ومرئي.",
+    start: "ابدأ الرحلة",
+    module: "وحدة",
+    modules: "الوحدات",
+    quiz: "اختبر معلوماتك",
+    show_math: "وريني المعادلات",
+    hide_math: "اخفي المعادلات",
+    next_lesson: "الدرس التالي",
+    finish_module: "إنهاء الوحدة",
+    score: "النتيجة",
+    retake: "أعد الاختبار",
+    correct: "صحيح!",
+    incorrect: "حاول مرة أخرى.",
+    submit: "تأكيد",
+    back_home: "العودة للخريطة",
+    completed: "مكتمل"
+  }
+};

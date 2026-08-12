@@ -1,14 +1,14 @@
-# BootcampAI LLM Guide
+# LLM Engineer's Handbook — Interactive Tutorial
 
-An interactive, bilingual (Arabic / English) guide to the inner workings of Large Language Models — from tokenization and embeddings to modern attention variants, MoE, and production-scale architectures.
+An interactive, bilingual (Arabic / English) tutorial for building production-grade LLM applications end to end — from data pipelines and RAG to fine-tuning, deployment, and LLMOps.
 
-دليل تفاعلي ثنائي اللغة (عربي / إنجليزي) لفهم البنية الداخلية لنماذج اللغة الكبيرة — من الـ tokenization والـ embeddings إلى أنواع الـ attention الحديثة والـ MoE ومعماريات الإنتاج.
+درس تفاعلي ثنائي اللغة (عربي / إنجليزي) لتعلّم بناء تطبيقات LLM جاهزة للإنتاج من البداية للنهاية — من خطوط البيانات وRAG إلى الضبط الدقيق والنشر وLLMOps.
 
 ## Features
 
 - **Bilingual content** — every lesson is available in both Arabic (RTL) and English
-- **Interactive widgets** — visualizations for attention mechanisms, KV cache, and more
-- **Modern curriculum** — MHA, MQA, GQA, MLA, sparse & linear attention, Mamba/SSM hybrids, MoE, quantization, and production deployment guidance
+- **12 modules** — LLM Twin & FTI architecture, MLOps tooling, data engineering, RAG pipelines, supervised fine-tuning, preference alignment (DPO), evaluation, inference optimization, deployment, and MLOps/LLMOps principles
+- **Interactive widgets** — hands-on simulations for pipelines, retrieval, LoRA, quantization, autoscaling, and more
 - **Quizzes** — test your understanding after each module
 
 ## Tech Stack

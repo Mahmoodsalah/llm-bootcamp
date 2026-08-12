@@ -1,7 +1,7 @@
 export const dict = {
   en: {
-    academy: "BootcampAI LLM Guide",
-    tagline: "The inner workings of Large Language Models, made interactive and visual.",
+    academy: "LLM Engineer's Handbook — Interactive Tutorial",
+    tagline: "Learn to build production-grade LLM applications end to end — from data pipelines and RAG to fine-tuning, deployment, and LLMOps.",
     start: "Start Journey",
     module: "Module",
     modules: "Modules",
@@ -19,8 +19,8 @@ export const dict = {
     completed: "Completed"
   },
   ar: {
-    academy: "دليل BootcampAI لـ LLM",
-    tagline: "طريقة عمل نماذج اللغة الكبيرة، مشروحة بشكل تفاعلي ومرئي.",
+    academy: "دليل مهندس نماذج اللغة — درس تفاعلي",
+    tagline: "تعلّم بناء تطبيقات LLM جاهزة للإنتاج من البداية للنهاية — من خطوط البيانات وRAG إلى الضبط الدقيق والنشر وLLMOps.",
     start: "ابدأ الرحلة",
     module: "وحدة",
     modules: "الوحدات",

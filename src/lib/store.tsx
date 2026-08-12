@@ -21,8 +21,10 @@ export function StoreProvider({ children }: { children: ReactNode }) {
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
+    const urlLang = new URLSearchParams(window.location.search).get('lang');
     const savedLang = localStorage.getItem('llm-academy-lang') as 'en' | 'ar';
-    if (savedLang) setLangState(savedLang);
+    if (urlLang === 'ar' || urlLang === 'en') setLangState(urlLang);
+    else if (savedLang) setLangState(savedLang);
 
     const savedProgress = localStorage.getItem('llm-academy-progress');
     if (savedProgress) setProgress(JSON.parse(savedProgress));

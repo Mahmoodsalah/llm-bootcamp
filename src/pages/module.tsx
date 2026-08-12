@@ -4,7 +4,7 @@ import { modules } from '../lib/modules';
 import { useStore } from '../lib/store';
 import { dict } from '../lib/i18n';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Check, ArrowRight, Calculator } from 'lucide-react';
+import { Check, ArrowRight, ArrowLeft, Calculator } from 'lucide-react';
 
 export function ModulePage() {
   const [match, params] = useRoute('/module/:id');
@@ -34,6 +34,13 @@ export function ModulePage() {
     if (!isQuiz) {
       markLessonComplete(mod.id, lesson!.id);
       setCurrentStep(s => s + 1);
+      setShowMath(false);
+    }
+  };
+
+  const handlePrev = () => {
+    if (currentStep > 0) {
+      setCurrentStep(s => s - 1);
       setShowMath(false);
     }
   };
@@ -108,7 +115,18 @@ export function ModulePage() {
               </div>
             )}
 
-            <div className="pt-8 flex justify-end">
+            <div className="pt-8 flex items-center justify-between gap-4">
+              {currentStep > 0 ? (
+                <button
+                  onClick={handlePrev}
+                  className="flex items-center gap-2 px-6 py-3 border-2 border-primary text-primary font-bold rounded-xl hover:bg-primary/10 transition-all active:scale-95"
+                >
+                  <ArrowLeft className={`w-5 h-5 ${lang === 'ar' ? 'rotate-180' : ''}`} />
+                  {t.prev_lesson}
+                </button>
+              ) : (
+                <span />
+              )}
               <button
                 onClick={handleNext}
                 className="flex items-center gap-2 px-6 py-3 bg-primary text-primary-foreground font-bold rounded-xl hover:bg-primary/90 shadow-md transition-all active:scale-95"

@@ -42,6 +42,16 @@ export function Layout({ children }: { children: React.ReactNode }) {
       <main className="flex-1 container mx-auto px-4 py-8 sm:py-12">
         {children}
       </main>
+      <footer className="border-t bg-card/60 px-4 py-8 sm:py-10">
+        <div className="container mx-auto flex flex-col items-center gap-3 text-center">
+          <p className="text-sm font-semibold text-muted-foreground">Powered by BootcampAI</p>
+          <img
+            src={`${import.meta.env.BASE_URL}bootcampai-logo.png`}
+            alt="BootcampAI"
+            className="h-auto w-full max-w-[220px] object-contain"
+          />
+        </div>
+      </footer>
     </div>
   );
 }

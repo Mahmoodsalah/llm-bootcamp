@@ -3,6 +3,7 @@ import { Eng } from '../store';
 import type { ModuleDef } from '../moduleTypes';
 import FTIPipeline from '../../components/widgets/FTIPipeline';
 
+
 export const llmTwinModule: ModuleDef = {
   id: "1",
   title: { en: "The LLM Twin & FTI Architecture", ar: "توأم LLM ومعمارية FTI" },

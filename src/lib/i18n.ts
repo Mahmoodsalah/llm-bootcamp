@@ -17,7 +17,8 @@ export const dict = {
     incorrect: "Not quite.",
     submit: "Submit",
     back_home: "Back to Map",
-    completed: "Completed"
+    completed: "Completed",
+    powered_by: "Powered by BootcampAI"
   },
   ar: {
     academy: "دليل مهندس نماذج اللغة — درس تفاعلي",
@@ -37,6 +38,7 @@ export const dict = {
     incorrect: "حاول مرة أخرى.",
     submit: "تأكيد",
     back_home: "العودة للخريطة",
-    completed: "مكتمل"
+    completed: "مكتمل",
+    powered_by: "مدعوم من BootcampAI"
   }
 };

@@ -18,14 +18,7 @@ An interactive, bilingual (Arabic / English) tutorial for building production-gr
 - Tailwind CSS 4
 - Framer Motion
 
-## Getting Started
 
-```bash
-pnpm install
-pnpm dev
-```
-
-Then open http://localhost:5173
 
 ## Build
 

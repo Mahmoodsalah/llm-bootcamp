@@ -2,8 +2,6 @@
 
 An interactive, bilingual (Arabic / English) tutorial for building production-grade LLM applications end to end — from data pipelines and RAG to fine-tuning, deployment, and LLMOps.
 
-درس تفاعلي ثنائي اللغة (عربي / إنجليزي) لتعلّم بناء تطبيقات LLM جاهزة للإنتاج من البداية للنهاية — من خطوط البيانات وRAG إلى الضبط الدقيق والنشر وLLMOps.
-
 ## Features
 
 - **Bilingual content** — every lesson is available in both Arabic (RTL) and English
